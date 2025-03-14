@@ -2,13 +2,13 @@ new_quote = input("Enter your favourite quote: ") + "\n"
 
 
 
-file = open("quotes.txt", 'a')
-collected_quote = file.writelines(new_quote)
-file.close()
+with open("quotes.txt", 'a') as file:
+    collected_quote = file.writelines(new_quote)
 
-file = open("quotes.txt", 'r')
-collected_quote = file.readlines()
-file.close()
+
+with open("quotes.txt", 'r') as file:
+    collected_quote = file.readlines()
+
 
 print("All saved quotes:")
 for index, quote in enumerate(collected_quote):
