@@ -1,10 +1,7 @@
 new_quote = input("Enter your favourite quote: ") + "\n"
 
-
-
 with open("quotes.txt", 'a') as file:
     collected_quote = file.writelines(new_quote)
-
 
 with open("quotes.txt", 'r') as file:
     collected_quote = file.readlines()
