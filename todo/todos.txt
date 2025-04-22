@@ -1,13 +1,12 @@
 Sleep
-Dance
 Clean
-Dancing
+Dollarama
 Reading
 CIMA
 DRAKE
 Auchi
 Wake
-Amelia
+Mum
 Alisha
 Brandon
 bathing
@@ -21,3 +20,5 @@ Aibotse
 lie
 Crawl
 allow
+Wake
+Run
